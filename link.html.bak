@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>www.animecollectionspro.com</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<!-- <meta charset="UFT-8"> -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h2 class="logo">ANIME</h2>
+<h2 class="logo2">COLLECTIONS</h2>
+<nav class="navigation">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <a href="#">Home</a>
+ <a href="#">About</a>
+ <a href="#">Service</a>
+ <a href="#">Contact</a>
+ <button class="btnlogin-popup">Login</button>
+ </nav>
+ </header>
+ 
+   <div class="wrapper">
+    <span class="icon-close">
+	<ion-icon name="close"></ion-icon>
+	</span>
+    <div class="form-box login">
+	 <h2>Login</h2>
+	 <form action="#">
+	  <div class="input-box">
+	  <span class="icon"><ion-icon name="mail"></ion-icon></span>
+	  <input type="email" required>
+	  <label style="left:20px;">Email</label>
+	  </div>
+	 <div class="input-box">
+	  <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+	  <input type="password" required>
+	  <label>password</label>
+	  </div>
+	  <div class="remember-forgot">
+	   <label><input type="checkbox">Remember me</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	   <a href="#">Forgot password?</a>
+	   </div>
+	   <input href="animecollectionspro.html" class="btn" type="Submit" value="login"/>
+	   <div class="login-register">
+	    <p> Don't have an account?&nbsp;&nbsp;<a href="#" class="register-link">Register</a></p>
+		</div>
+		</form>
+		</div>
+		
+		<div class="form-box register">
+	     <h2>Regitration</h2>
+	     <form action="#">
+	    <div class="input-box">
+	     <span class="icon"><ion-icon name="person"></ion-icon></span>
+	     <input type="text" required>
+	     <label>Username</label>
+	    </div>
+	  <div class="input-box">
+	   <span class="icon"><ion-icon name="mail"></ion-icon></span>
+	   <input type="email" required>
+	   <label style="left:20px;">Email</label>
+	  </div>
+	  <div class="input-box">
+	   <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+	   <input type="password" required>
+	   <label>password</label>
+	  </div>
+	  <div class="remember-forgot">
+	   <label><input type="checkbox">I agree to the terms & conditions</label>
+	  </div>
+	  <input href="animecollectionspro.html" class="btn" type="Submit" value="register"/>
+	   <div class="login-register">
+	    <p> Already have an account?&nbsp;&nbsp;<a href="#" class="login-link">login</a></p>
+		</div>
+		</form>
+		</div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/script.js/2.0.2/script.min.js" integrity="sha512-UWtTDM6wtl/qutDD6i1JOGZGiEd92dveVzuLl8sMBkMHlOHcbZdexM7ZrKkeaugW7vhqDnWc2pPD/ohEV+BBbg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script>
+   const wrapper= document.querySelector('.wrapper');
+const loginLink =document.querySelector('.login-link');
+const registerLink =document.querySelector('.register-link');
+const btnPopup =document.querySelector('.btnlogin-popup');
+const iconClose =document.querySelector('.icon-close');
+
+registerLink.addEventListener('click',()=> {
+	wrapper.classList.add('active');
+});
+
+loginLink.addEventListener('click',()=> {
+   wrapper.classList.remove('active');
+});
+
+btnPopup.addEventListener('click',()=> {
+	wrapper.classList.add('active-popup');
+});
+
+iconClose.addEventListener('click',()=> {
+wrapper.classList.remove('active-popup');
+});
+
+jQuery(function () {
+  	jQuery("#buttonId").click(function(){
+
+        location.href = jQuery("#animecollectionspro.html").val();
+	})
+})
+   </script>
+</body>
+</html>

@@ -1,0 +1,506 @@
+<html>
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<title>ANAIME COLLECTIONS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<style>
+#anime{
+background-color:black;
+color:white;
+padding:20px;
+text-align:center;
+}
+#COLLECT{
+color:orange;
+}
+body{
+margin:0;
+background:#f2f2f2f;
+}
+.navbar{
+background-color:orange;
+padding:5px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+ 
+}
+
+li a:hover {
+  background-color:black;
+  color:orange;
+
+.left, .right {
+  float: left;
+  width: 20%;}
+
+.main {
+  float: left;
+  width: 60%;}
+
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%;}
+
+
+
+</style>
+<body>
+<div style="background-color:black;color:white;padding:20px;text-align:center;">
+<h1 id="anime">ANIME<span id= "COLLECT">COLLECTIONS</span></h1>
+<p>For Anime Lovers &#128151;</p>
+<form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" style="background-color:orange;" type="submit">Search</button>
+ </form>
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/slied/1.jpg" style="max-width:100%;height:auto;background-color:black;">
+    </div>
+    <div class="carousel-item">
+      <img src="img/slied/2.jpg" style="max-width:100%;height:auto;background-color:black;">
+    </div>
+    <div class="carousel-item">
+      <img src="img/slied/3.jpg" style="max-width:100%;height:auto;background-color:black;">
+    </div>
+  </div>
+<nav  class="navbar navbar-light px-3">
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading1"style="color:white;">HOODIES</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading2"style="color:white;">T-SHIRTS</a>
+    </li>
+	<li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading3"style="color:white;">SHORTS</a>
+    </li>
+	<li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading4"style="color:white;">FULL COSTUME</a>
+    </li>
+	<li class="nav-item">
+      <a class="nav-link" href="#scrollspyHeading5"style="color:white;">TOYS</a>
+    </li>
+</nav>
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+  <h4 id="scrollspyHeading1"style="text-align:center; background-color:white; color:red; font-size:40px; font-family:helventica;">HOODIES</h4>
+   <div id="mikey" class="col-xs-12">
+    <div class="row">
+	 <div class="col-md-6">
+   <img src="img/hoodies/1.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 500</p>
+   </div>
+     <div class="col-md-6">
+   <img src="img/hoodies/2.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 1500</p>
+   </div>
+   <div class="col-md-6">
+   <img src="img/hoodies/3.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 500</p>
+   </div>
+   <div class="col-md-6">
+   <img src="img/hoodies/4.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 900</p>
+   </div>
+   <div class="col-md-6">
+   <img src="img/hoodies/5.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 1500</p>
+   </div>
+   <div class="col-md-6">
+   <img src="img/hoodies/6.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 500</p>
+   </div>
+   <div class="col-md-6">
+   <img src="img/hoodies/7.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 800</p>
+   </div>
+   <div class="col-md-6">
+   <img src="img/hoodies/8.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 1500</p>
+   </div>
+   <div class="col-md-6">
+   <img src="img/hoodies/9.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 500</p>
+   </div>
+   <div class="col-md-6">
+   <img src="img/hoodies/10.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 500</p>
+   </div>
+   <div class="col-md-6">
+   <img src="img/hoodies/11.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 900</p>
+   </div>
+   <div class="col-md-6">
+   <img src="img/hoodies/12.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 1000</p>
+   </div>
+   <div class="col-md-6">
+   <img src="img/hoodies/13.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 500</p>
+   </div>
+   <div class="col-md-6">
+   <img src="img/hoodies/14.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 500</p>
+   </div>
+   <div class="col-md-6">
+   <img src="img/hoodies/15.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 700</p>
+   </div>
+   <div class="col-md-6">
+   <img src="img/hoodies/16.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 500</p>
+   </div>
+   <div class="col-md-6">
+   <img src="img/hoodies/17.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 900</p>
+   </div>
+   <div class="col-md-6">
+   <img src="img/hoodies/18.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 1500</p>
+   </div>
+  <h4 id="scrollspyHeading2"style="text-align:center; background-color:white; color:red; font-size:40px; font-family:helventica;">T-SHIRTS</h4>
+  <div id="mikey" class="col-xs-12">
+    <div class="row">
+	 <div class="col-md-6">
+   <img src="img/t shirts/1.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 300</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/t shirts/2.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 300</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/t shirts/3.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 300</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/t shirts/4.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 300</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/t shirts/5.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 300</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/t shirts/6.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 300</p>
+   </div> <div class="col-md-6">
+   <img src="img/t shirts/7.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 300</p>
+   </div> <div class="col-md-6">
+   <img src="img/t shirts/8.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 300</p>
+   </div> <div class="col-md-6">
+   <img src="img/t shirts/9.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 300</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/t shirts/10.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 300</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/t shirts/11.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 300</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/t shirts/12.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 300</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/t shirts/13.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 350</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/t shirts/14.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 350</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/t shirts/15.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 400</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/t shirts/16.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 600</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/t shirts/17.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 500</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/t shirts/18.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 500</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/t shirts/19.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 300</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/t shirts/20.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 300</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/t shirts/21.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 500</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/t shirts/22.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 600</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/t shirts/23.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 500</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/t shirts/24.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 480</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/t shirts/25.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 500</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/t shirts/26.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 200</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/t shirts/27.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 500</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/t shirts/28.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 1000</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/t shirts/29.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 600</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/t shirts/30.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 500</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/t shirts/31.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 300</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/t shirts/33.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 800</p>
+   </div>
+  <h4 id="scrollspyHeading3"style="text-align:center; background-color:white; color:red; font-size:40px; font-family:helventica;">SHORTS</h4>
+  <div class="col-md-6">
+   <img src="img/shorts/1.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 200</p>
+   </div>
+   <div class="col-md-6">
+   <img src="img/shorts/2.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 400</p>
+   </div>
+   <div class="col-md-6">
+   <img src="img/shorts/3.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 800</p>
+   </div>
+   <div class="col-md-6">
+   <img src="img/shorts/4.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 300</p>
+   </div>
+   <div class="col-md-6">
+   <img src="img/shorts/5.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 400</p>
+   </div>
+   <div class="col-md-6">
+   <img src="img/shorts/6.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 150</p>
+   </div>
+   <div class="col-md-6">
+   <img src="img/shorts/7.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 200</p>
+   </div>
+   <div class="col-md-6">
+   <img src="img/shorts/8.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 800</p>
+   </div>
+   <div class="col-md-6">
+   <img src="img/shorts/9.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 300</p>
+   </div>
+   <div class="col-md-6">
+   <img src="img/shorts/10.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 300</p>
+   </div>
+   <div class="col-md-6">
+   <img src="img/shorts/11.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 500</p>
+   </div>
+   <div class="col-md-6">
+   <img src="img/shorts/12.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 600</p>
+   </div>
+  <h4 id="scrollspyHeading4"style="text-align:center; background-color:white; color:red; font-size:40px; font-family:helventica;">FULL COSTUME</h4>
+   <div class="col-md-6">
+   <img src="img/full costume/1.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 600</p>
+   </div><div class="col-md-6">
+   <img src="img/full costume/2.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 600</p>
+   </div><div class="col-md-6">
+   <img src="img/full costume/3.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 600</p>
+   </div><div class="col-md-6">
+   <img src="img/full costume/4.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 600</p>
+   </div><div class="col-md-6">
+   <img src="img/full costume/5.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 600</p>
+   </div><div class="col-md-6">
+   <img src="img/full costume/6.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 600</p>
+   </div><div class="col-md-6">
+   <img src="img/full costume/7.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 600</p>
+   </div><div class="col-md-6">
+   <img src="img/full costume/8.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 600</p>
+   </div><div class="col-md-6">
+   <img src="img/full costume/10.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 600</p>
+   </div><div class="col-md-6">
+   <img src="img/full costume/11.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 600</p>
+   </div><div class="col-md-6">
+   <img src="img/full costume/12.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 600</p>
+   </div><div class="col-md-6">
+   <img src="img/full costume/13.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 600</p>
+   </div>
+  <h4 id="scrollspyHeading5"style="text-align:center; background-color:white; color:red; font-size:40px; font-family:helventica;">TOYS</h4>
+  <div class="col-md-6">
+   <img src="img/toys/1.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 1600</p>
+   </div>
+   <div class="col-md-6">
+   <img src="img/toys/2.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 700</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/toys/3.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 1100</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/toys/4.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 900</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/toys/5.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 1300</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/toys/6.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 800</p>
+   </div> <div class="col-md-6">
+   <img src="img/toys/7.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 1000</p>
+   </div> <div class="col-md-6">
+   <img src="img/toys/8.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 1300</p>
+   </div> <div class="col-md-6">
+   <img src="img/toys/9.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 1200</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/toys/10.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 700</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/toys/11.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 900</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/toys/12.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 900</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/toys/13.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 850</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/toys/14.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 350</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/toys/15.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 400</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/toys/16.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 1600</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/toys/17.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 600</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/toys/18.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 1500</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/toys/19.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 1000</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/toys/20.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 700</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/toys/21.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 500</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/toys/22.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 600</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/toys/23.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 500</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/toys/24.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 480</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/toys/25.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 500</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/toys/26.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 400</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/toys/27.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 500</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/toys/28.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 1000</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/toys/29.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 600</p>
+   </div>
+    <div class="col-md-6">
+   <img src="img/toys/31.jpg" style="max-width:60%;height:auto;background-color:white;">
+   <p>PIRCE 600</p>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
